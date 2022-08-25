@@ -1,0 +1,19 @@
+int x;
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  for (x = 0; x < 10; x++)
+  { Serial.println(x);
+    delay(100);
+  }
+  delay(100);
+  for (x = 10; x > -1; x--)
+
+  { Serial.println(x);
+    delay(100);
+
+  }
+}
